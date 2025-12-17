@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
@@ -7,7 +6,6 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-/* Header Section */
 header {
     background: linear-gradient(to right, #4b6cb7, #182848);
     color: white;
@@ -25,7 +23,6 @@ header .title {
     font-weight: 400;
     text-transform: capitalize;
 }
-/* Profile Section */
 .profile {
     display: flex;
     align-items: center;
@@ -43,7 +40,6 @@ header .title {
     max-width: 600px;
     font-size: 1rem;
 }
-/* Skills Section */
 .skills {
     padding: 50px 20px;
     text-align: center;
@@ -67,7 +63,6 @@ header .title {
     background-color: #182848;
     transform: translateY(-5px);
 }
-/* Contact Section */
 .contact {
     padding: 50px 20px;
     text-align: center;
@@ -100,14 +95,12 @@ header .title {
 .contact button:hover {
     background-color: #4b6cb7;
 }
-/* Footer */
 footer {
     background-color: #182848;
     color: white;
     text-align: center;
     padding: 20px;
 }
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .profile {
         flex-direction: column;
